@@ -17,7 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NCode.Common.Models\NCode.Common.Models.csproj" />
     <ProjectReference Include="..\NCode.Common.Responses\NCode.Common.Responses.csproj" />
   </ItemGroup>
 
