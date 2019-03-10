@@ -1,4 +1,6 @@
 ﻿# Overview
+[![Build status](https://ci.appveyor.com/api/projects/status/2qa7tli7laa0o4mq/branch/master?svg=true)](https://ci.appveyor.com/project/polewskm/ncode-common-web/branch/master)
+
 Provides a set common classes when implementing WebAPI services.
 
 ## NCode.Common.Models
