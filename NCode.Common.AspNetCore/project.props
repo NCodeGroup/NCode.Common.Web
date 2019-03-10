@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+
+    <Description>Provides common middleware and utilities for ASP.NET Core WebAPI services.</Description>
+
+  </PropertyGroup>
+</Project>

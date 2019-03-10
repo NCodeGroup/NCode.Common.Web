@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+
+    <Description>Used by WebAPI clients and servers to provide common definitions for consistent and uniform contracts for all responses in WebAPI applications.</Description>
+
+  </PropertyGroup>
+</Project>

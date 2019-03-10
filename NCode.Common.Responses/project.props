@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+
+    <Description>Used by WebAPI applications to create responses by using the factory selector pattern. Additional responses can be provided by developers by creating their own extension methods.</Description>
+
+  </PropertyGroup>
+</Project>
