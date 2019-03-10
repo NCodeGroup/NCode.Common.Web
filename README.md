@@ -1,9 +1,14 @@
 ﻿# Overview
+
 [![Build status](https://ci.appveyor.com/api/projects/status/2qa7tli7laa0o4mq/branch/master?svg=true)](https://ci.appveyor.com/project/polewskm/ncode-common-web/branch/master)
 
 Provides a set common classes when implementing WebAPI services.
 
 ## NCode.Common.Models
+
+[![NuGet Downloads](https://img.shields.io/nuget/dt/NCode.Common.Models.svg?style=flat)](https://www.nuget.org/packages/NCode.Common.Models/)
+[![NuGet Version](https://img.shields.io/nuget/v/NCode.Common.Models.svg?style=flat)](https://www.nuget.org/packages/NCode.Common.Models/)
+
 Used by WebAPI clients and servers to provide common definitions for consistent and uniform contracts for all responses in WebAPI applications.
 
 ### Common Contracts
@@ -126,6 +131,10 @@ public class ErrorData
 ```
 
 ## NCode.Common.Responses
+
+[![NuGet Downloads](https://img.shields.io/nuget/dt/NCode.Common.Responses.svg?style=flat)](https://www.nuget.org/packages/NCode.Common.Responses/)
+[![NuGet Version](https://img.shields.io/nuget/v/NCode.Common.Responses.svg?style=flat)](https://www.nuget.org/packages/NCode.Common.Responses/)
+
 Used by WebAPI applications to create responses by using the factory selector pattern. Additional responses can be provided by developers by creating their own extension methods.
 
 ### Definition
@@ -188,6 +197,10 @@ private static void Main()
 ```
 
 ## NCode.Common.AspNetCore
+
+[![NuGet Downloads](https://img.shields.io/nuget/dt/NCode.Common.AspNetCore.svg?style=flat)](https://www.nuget.org/packages/NCode.Common.AspNetCore/)
+[![NuGet Version](https://img.shields.io/nuget/v/NCode.Common.AspNetCore.svg?style=flat)](https://www.nuget.org/packages/NCode.Common.AspNetCore/)
+
 Provides common middleware and utilities for ASP.NET Core WebAPI services.
 
 ```csharp
