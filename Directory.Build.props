@@ -10,5 +10,8 @@
     <FileVersion>$(AssemblyVersion)</FileVersion>
     <Version>$(AssemblyVersion)</Version>
 
+    <PackageProjectUrl>https://github.com/NCodeGroup/NCode.Common.Web.git</PackageProjectUrl>
+    <PackageIconUrl>https://raw.githubusercontent.com/NCodeGroup/NCode.Common.Web/master/NCodeGroup.png</PackageIconUrl>
+
   </PropertyGroup>
 </Project>
