@@ -1,4 +1,14 @@
-﻿# Overview
+﻿# Deprecated
+
+> **This library is retired. ASP.NET Core provides what it did.**
+>
+> - The common response shape (`IResponse`, `Response`, `ErrorData`) becomes `ProblemDetails` and `ValidationProblemDetails` (RFC 9457), returned with `TypedResults.Problem(...)` and `TypedResults.ValidationProblem(...)`, or from controllers marked `[ApiController]`, which return a `ValidationProblemDetails` for an invalid model on their own.
+> - `ResponseExceptionHandlerMiddleware` becomes `services.AddProblemDetails()` with `app.UseExceptionHandler()`, and an `IExceptionHandler` (.NET 8 and later) for a mapping of your own.
+> - It targets .NET Standard 2.0 and has not changed in substance since 2019.
+>
+> The NuGet packages `NCode.Common.Models`, `NCode.Common.AspNetCore` and `NCode.Common.Responses` are deprecated and this repository is archived. The code stays available as it is.
+
+# Overview
 
 [![Build status](https://ci.appveyor.com/api/projects/status/2qa7tli7laa0o4mq/branch/master?svg=true)](https://ci.appveyor.com/project/polewskm/ncode-common-web/branch/master)
 
